@@ -46,7 +46,6 @@ const login = async (req, res) => {
     jwtToken, 
     email,
     name: user.name,
-    userId: user._id
   });
 }
   catch {err} {

@@ -2,6 +2,7 @@ const router = require('express').Router();
 const {ensuredAuthenticated} = require('../Middlewares/Auth');
 
 router.get("/", ensuredAuthenticated, (req,res) => {
+  console.log(req.user);
   res.status(200)
   .json([
     {
