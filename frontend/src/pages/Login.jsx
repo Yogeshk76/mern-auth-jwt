@@ -12,7 +12,7 @@ const Login = () => {
 
   const navigate = useNavigate();
   const handleChange = (e) => {
-    // e.preventDefault();
+    // e.preventDefault(); 
     const { name, value } = e.target;
     console.log(name, value);
     const copyLoginInfo = { ...loginInfo };
