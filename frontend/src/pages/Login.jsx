@@ -51,7 +51,7 @@ const Login = () => {
         handleError(message);
       }
 
-      console.log(result);
+      // console.log(result);
     } catch (err) {
       handleError("An error occured. Please try again");
     }
